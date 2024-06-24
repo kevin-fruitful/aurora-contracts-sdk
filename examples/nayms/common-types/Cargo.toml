@@ -1,5 +1,5 @@
 [package]
-name = "uniswap-from-near-types"
+name = "nayms-on-near-types"
 version = "0.1.0"
 edition = "2021"
 

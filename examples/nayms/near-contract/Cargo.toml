@@ -1,5 +1,5 @@
 [package]
-name = "uniswap-from-near-types"
+name = "nayms-on-near"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,6 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-near-sdk = { version = "5.1", features = ["abi"] }
+aurora-sdk = { path = "../../../aurora-rust-sdk/aurora-sdk" }
 serde = { version = "1", features = ["derive"] }
+nayms-on-near-types = { path = "../common-types" }

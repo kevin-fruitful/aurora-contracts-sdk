@@ -1,5 +1,5 @@
 [workspace]
-members = ["near-contract", "integration-tests"]
+members = ["near-contract", "common-types"]
 exclude = ["target"]
 resolver = "2"
 
